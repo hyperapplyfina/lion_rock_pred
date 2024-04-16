@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import datetime
-import streamlit as st
 import pickle
+from sklearn import ensemble
 
 @st.cache_data
 def load_model():
